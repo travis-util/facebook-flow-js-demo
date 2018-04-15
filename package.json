@@ -2,6 +2,6 @@
   "name": "facebook-flow-js-demo",
   "license": "MIT",
   "dependencies": {
-    "@babel/preset-flow": "^6.26.0"
+    "@babel/preset-flow": "^7.0"
   }
 }
