@@ -3,5 +3,5 @@
   "license": "MIT",
   "dependencies": {
     "@babel/preset-flow": "^6.26.0"
-  },
+  }
 }
