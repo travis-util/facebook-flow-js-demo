@@ -7,7 +7,7 @@ script:
 - yarn run flow
 - npm run build
 - yarn run babel src/ -- -d lib/
-- yarn run babylon src/ -d lib/
+- yarn run babel src/ -d lib/
 
 after_script:
 - npm run
@@ -15,8 +15,8 @@ after_script:
 - ls --color
 - ls --color --recursive lib
 - ls --color node_modules/.bin
-- yarn run babylon --help
-- yarn run babylon
+- yarn run babel --help
+- yarn run babel
 - yarn run flow init --help
 - yarn run flow --help
 - yarn run --help
