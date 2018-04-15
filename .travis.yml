@@ -4,7 +4,9 @@ node_js:
 
 script:
 - yarn run flow init
+- yarn run flow
 
 after_script:
 - ls --color node_modules/.bin
 - yarn run flow init --help
+- yarn run flow --help
