@@ -3,5 +3,11 @@
   "license": "MIT",
   "dependencies": {
     "@babel/preset-flow": "^7.0.0-beta"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.69.0"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/"
   }
 }
