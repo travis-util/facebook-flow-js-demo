@@ -4,6 +4,10 @@
   "dependencies": {
     "@babel/preset-flow": "^7.0.0-beta"
   },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-beta"
+    "tea": "2.x"
+  },
   "devDependencies": {
     "flow-bin": "^0.69.0"
   },
