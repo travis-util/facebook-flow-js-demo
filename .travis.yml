@@ -4,11 +4,12 @@ node_js:
 
 script:
 - yarn run flow init
-- yarn run flow ls --strip-root
 - yarn run flow
 - yarn run babel src/ -- -d lib/
+- yarn run babylon src/ -d lib/
 
 after_script:
+- yarn run flow ls --strip-root
 - ls --color
 - ls --color --recursive lib
 - ls --color node_modules/.bin
