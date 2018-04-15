@@ -3,4 +3,7 @@ node_js:
   - node
 
 script:
-- yarn run flow
+- yarn run flow init
+
+after_script:
+- yarn run flow init --help
