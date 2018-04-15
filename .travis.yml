@@ -16,6 +16,7 @@ after_script:
 - ls --color --recursive lib
 - ls --color node_modules/.bin
 - yarn run babylon --help
+- yarn run babylon
 - yarn run flow init --help
 - yarn run flow --help
 - yarn run --help
