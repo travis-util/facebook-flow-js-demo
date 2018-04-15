@@ -9,5 +9,5 @@ script:
 
 after_script:
 - ls --color node_modules/.bin
-- yarn run flow init --help --color
-- yarn run flow --help --color
+- yarn run flow init --help
+- yarn run flow --help
