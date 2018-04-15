@@ -6,4 +6,5 @@ script:
 - yarn run flow init
 
 after_script:
+- ls --color node_modules/.bin
 - yarn run flow init --help
