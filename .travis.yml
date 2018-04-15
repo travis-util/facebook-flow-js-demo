@@ -6,6 +6,7 @@ script:
 - yarn run flow init
 - yarn run flow ls --strip-root
 - yarn run flow
+- yarn run babel src/ -- -d lib/
 
 after_script:
 - ls --color
@@ -13,3 +14,5 @@ after_script:
 - ls --color node_modules/.bin
 - yarn run flow init --help
 - yarn run flow --help
+- yarn run --help
+- yarn --help
