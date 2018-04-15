@@ -1,6 +1,6 @@
 // @flow
 
-function foo(x: ?number): string {
+function foo(x: ?string): string {
   if (x) {
     return x;
   }
