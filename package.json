@@ -2,10 +2,8 @@
   "name": "facebook-flow-js-demo",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.0.0-beta",
     "@babel/preset-flow": "^7.0.0-beta"
-  },
-  "peerDependencies": {
-    "@babel/core": "^7.0.0-beta"
   },
   "devDependencies": {
     "flow-bin": "^0.69.0"
